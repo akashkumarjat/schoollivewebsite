@@ -1,0 +1,550 @@
+// .footer-first-col {
+//     background-color: #000;
+    
+// }
+
+// .footer-first-heading{
+//     padding: 0px 30px 0px 30px;
+//     color: #00A1E5;
+//     padding-top: 30px;
+//     text-align: left;
+//     text-decoration: none;
+//     font-weight: 800;
+//     text-transform: uppercase;
+//     font-size: 26px;
+//     font-family: source-sans-pro, sans-serif;
+ 
+// }
+// .footer-first-heading span{
+//     color: #00A1E5;
+//     text-align: left;
+//     text-decoration: none;
+//     font-weight: 800;
+//     text-transform: uppercase;
+//     font-size: 26px;
+//     font-family: source-sans-pro, sans-serif;
+ 
+// }
+// .footer-first-col p{
+//     padding: 0px 30px 0px 30px;
+//     color: #fff;
+//     font-weight: 600;
+//     text-align: left;
+//     text-decoration: none;
+//     text-transform: capitalize;
+//     font-size: 15px;
+//     font-family: source-sans-pro, sans-serif;
+// }
+// .footer-first-col h3{
+//     padding: 0px 30px 0px 30px;
+//     color: #fff;
+//     padding-top: 30px;
+//     text-align: left;
+//     text-decoration: none;
+//     font-weight: 600;
+//     text-transform: capitalize;
+//     font-size: 20px;
+//     font-family: source-sans-pro, sans-serif;
+// }
+// .footer-first-col h3::after{
+//     content: '';
+//     background: linear-gradient(to right,#FF5D88, #00A1E5);
+//     display: block;
+//     height: 3px;
+//     width: 80px;
+//     margin: 15px  0px;
+//   }
+//   .footer-icons{
+//     color: #00A1E5;
+//     font-size: 20px;
+//     border: 1px solid #00A1E5;
+//     background: 0 0;
+//     border-radius: 50%;
+//     height: 35px;
+//     line-height: 35px;
+//     width: 35px;
+//     text-align: center;
+//   }
+//   .footer-icons:hover{
+//       color: #000;
+//       border: 1px solid #000;
+//       background-color: #fff;
+//   }
+//   .footer-icons-div{
+//     padding-left: 20px;  
+//     padding-bottom: 50px;
+//   }
+//   .footer-icons-div span{
+//       margin: 10px;
+//   }
+
+
+
+
+
+// // --------footer-second-col--------------
+
+
+
+//   .footer-second-col{
+//       background-color: whitesmoke;
+//   }
+//   .footer-second-col h2{
+//     padding: 0px 30px 0px 30px;
+//     color: #00A1E5;
+//     padding-top: 30px;
+//     text-align: left;
+//     text-decoration: none;
+//     font-weight: 800;
+//     text-transform: uppercase;
+//     font-size: 26px;
+//     font-family: source-sans-pro, sans-serif;
+// }
+// .footer-second-col h2::after{
+//     content: '';
+//     background: linear-gradient(to right,#FF5D88, #00A1E5);
+//     display: block;
+//     height: 3px;
+//     width: 80px;
+//     margin: 15px  0px;
+//   }
+
+// .footer-btns {
+//     padding-left: 30px;
+// }
+// .footer-btns a{
+//     color: #000;
+//     font-weight: 600;
+//     line-height: 1em;
+//     line-height: 35px;
+// }
+// .footer-btns a:hover{
+//     color: #FFf;
+//     background-color: #00A1E5;
+//    padding: 0px 10px 0px 10px;
+//    transition: padding .3s;
+// }
+
+
+// // --------footer-third-col--------------
+
+
+// .footer-third-col{
+//     background-color: whitesmoke;
+// }
+// .footer-third-col h2{
+//     padding: 0px 30px 0px 30px;
+//     color: #00A1E5;
+//     padding-top: 30px;
+//     text-align: left;
+//     text-decoration: none;
+//     font-weight: 800;
+//     text-transform: uppercase;
+//     font-size: 26px;
+//     font-family: source-sans-pro, sans-serif;
+// }
+// .footer-third-col h2::after{
+//     content: '';
+//     background: linear-gradient(to right,#FF5D88, #00A1E5);
+//     display: block;
+//     height: 3px;
+//     width: 80px;
+//     margin: 15px  0px;
+//   }
+//   .footer-third-col p{
+//     padding: 0px 30px 0px 30px;
+//     color: #000;
+//     text-align: left;
+//     text-decoration: none;
+//     text-transform: capitalize;
+//     font-size: 15px;
+//     font-weight: 600;
+//     font-family: source-sans-pro, sans-serif;
+// }
+
+// .footer-third-col a{
+//     padding: 0px 30px 0px 30px;
+//     color: #000;
+//     text-align: left;
+//     text-decoration: none;
+//     text-transform: capitalize;
+//     font-size: 15px;
+//     font-weight: 600;
+//     font-family: source-sans-pro, sans-serif;
+// }
+
+// --------coptright-div--------------
+
+
+.footer-line{
+border-top: 1px solid #ededed;
+}
+
+.bottom-footer-content {
+    padding: 42px 0;
+}
+
+.bottom-footer-content p, a{
+    text-align: center;
+    color: #8a919c;
+    font-weight:500;
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 28px;
+    font-family: source-sans-pro, sans-serif;
+}
+.copyright-last-para{
+    // margin-top: -15px;
+}
+
+
+
+
+
+.footer-section{
+    margin-top: 100px;
+    background-color: #fff;
+}
+.footer-first-col{
+    background-color: #fff;
+}
+
+.footer-first-col h1{
+    color: #2a2a2a;
+    padding-top: 30px;
+    text-align: left;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 22px;
+    line-height: 28px;
+    font-family: source-sans-pro, sans-serif;
+    padding-bottom: 15px;
+ 
+}
+
+.footer-first-col h1::after{
+    content: '';
+    background: linear-gradient(to right,#FF5D88, #00A1E5);
+    display: block;
+    height: 3px;
+    width: 80px;
+    margin: 15px  0px;
+  }
+.footer-first-col p{
+    //padding: 0px 30px 0px 30px;
+    color: #8a919c;
+    font-weight:500;
+    text-align: left;
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 28px;
+    font-family: source-sans-pro, sans-serif;
+}
+.footer-first-col h2{
+    color: #2a2a2a;
+    text-align: left;
+    text-decoration: none;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 22px;
+    line-height: 28px;
+    font-family: source-sans-pro, sans-serif;
+}
+
+.footer-first-col h2::after{
+    content: '';
+    background: linear-gradient(to right,#FF5D88, #00A1E5);
+    display: block;
+    height: 3px;
+    width: 80px;
+    margin: 15px  0px;
+  }
+  .footer-icons{
+    color: #8a919c;
+    font-size: 20px;
+    border: 1px solid #8a919c;
+    background: 0 0;
+    border-radius: 50%;
+    height: 35px;
+    line-height: 35px;
+    width: 35px;
+    text-align: center;
+  }
+  .footer-icons:hover{
+      color: #00A1E5;
+      border: 1px solid #00A1E5;
+      background-color: #fff;
+  }
+  .footer-icons-div{
+    //padding-left: 20px;  
+    padding-bottom: 20px;
+  }
+  .footer-icons-div span{
+      margin-right: 10px;
+  }
+
+
+
+
+
+    .footer-second-col{
+      background-color: #fff;
+  }
+  .footer-second-col h2{
+    color: #2a2a2a;
+    padding-top: 30px;
+    text-align: left;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 22px;
+    line-height: 28px;
+    font-family: source-sans-pro, sans-serif;
+    padding-bottom: 15px;
+    padding-left: 90px;
+}
+
+.footer-second-col h2::after{
+    content: '';
+    background: linear-gradient(to right,#FF5D88, #00A1E5);
+    display: block;
+    height: 3px;
+    width: 80px;
+    margin: 15px  0px;
+  }
+.footer-btns {
+    
+}
+.footer-btns a{
+    padding-left: 90px;
+    color: #8a919c;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 28px;
+    font-family: source-sans-pro, sans-serif;
+    line-height: 1em;
+    line-height: 25px;
+    text-transform: capitalize;
+}
+.footer-btns a:hover{
+    color: #00A1E5;
+    //background-color: #00A1E5;
+//    padding: 0px 10px 0px 10px;
+//    transition: padding .3s;
+}
+
+
+
+
+
+.footer-third-col{
+    background-color: #fff;
+}
+.footer-third-col h2{
+    color: #2a2a2a;
+    padding-top: 30px;
+    text-align: left;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 22px;
+    line-height: 28px;
+    font-family: source-sans-pro, sans-serif;
+    padding-bottom: 15px;
+}
+.footer-third-col h2::after{
+    content: '';
+    background: linear-gradient(to right,#FF5D88, #00A1E5);
+    display: block;
+    height: 3px;
+    width: 80px;
+    margin: 15px  0px;
+  }
+  .footer-third-col p{
+    color: #8a919c;
+    text-align: left;
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 28px;
+    font-weight: 500;
+    font-family: source-sans-pro, sans-serif;
+}
+
+.footer-third-col a{
+    color: #2a2a2a;
+    text-align: left;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500;
+    font-family: source-sans-pro, sans-serif;
+}
+
+
+.footer-third-col a:hover{
+    color: #00A1E5;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 572px){
+    .footer-second-col h2{
+        padding-left: 0px;
+    }
+    .footer-btns a{
+        padding-left: 0px;
+    }
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ScrollUpButton__Container{
+    // color: #0de49d !important;
+    // background-color: rgb(255,96,139) !important;
+    fill: rgba(220,220,220,1) !important;
+    width: 35px !important;
+    height: 35px !important;
+    position: fixed;
+    bottom: 15px !important;
+    right: 15px !important;
+    border-radius: 50% !important;
+    border: 2px solid rgba(220,220,220,1);
+    background-color: transparent !important;
+    
+}
+.ScrollUpButton__Toggled{
+    width: 35px !important;
+    height: 35px !important;
+    position: fixed;
+    bottom: 15px !important;
+    right: 15px !important;
+    z-index: 99;
+    // color: rgba(220,220,220,0.5);
+    text-align: center !important;
+    fill: rgba(220,220,220,1) !important;
+    // font-size: 18px !important;
+    // display: none;
+    cursor: pointer;
+    border-radius: 3px;
+    border: none;
+    transition: ease !important;
+    // background: linear-gradient( -90deg, rgb(255,182,139) 0%, rgb(255,96,139) 100%);
+    border: 2px solid rgba(220,220,220,1);
+    background-color: transparent !important;
+}
+
+.ScrollUpButton__Toggled:after {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    top: 100%;
+    left: 5%;
+    height: 10px;
+    width: 90%;
+    opacity: 1;
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0) 80%);
+}
+
+.ScrollUpButton__Toggled:focus {
+    outline: 0 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// <div className="row">
+//                     <div className="col-lg-6 col-md-6 col-sm-12 hostel_icon">
+//                         <div className="icon-div">
+//                             <i class="fa fa-calendar-o effect-2 hostel-icons"></i>
+//                         </div>
+//                         <h4>Expertise</h4>
+//                         <p>One & half decades of excellence in Student Hostel Accommodation</p>
+
+//                     </div>
+//                     <Col span="6" className="hostel_icon">
+//                         <div className="icon-div">
+//                             <i class="fa fa-home effect-2 hostel-icons"></i>
+//                         </div>
+//                         <h4>Accomodation</h4>
+//                         <p>Contented Stay with Modern Facilities</p>
+//                     </Col>
+//                     <Col span="6" className="hostel_icon">
+//                         <div className="icon-div">
+//                             <i class="fa fa-shopping-cart effect-2 hostel-icons"></i>
+//                         </div>
+//                         <h4>Laundry</h4>
+//                         <p>On demand Laundry Facility</p>
+
+//                     </Col>
+//                     <Col span="6" className="hostel_icon">
+//                         <div className="icon-div">
+//                             <i class="fa fa-wifi effect-2 hostel-icons"></i>
+//                         </div>
+//                         <h4>Internet</h4>
+//                         <p>Exceptional Wi-Fi Connectivity</p>
+
+//                     </Col>
+//                 </div>
+
+//                 <Row justify="center">
+//                     <Col span="6" className="hostel_icon">
+//                         <div className="icon-div">
+//                             <i class="fa fa-medkit effect-2 hostel-icons"></i>
+//                         </div>
+//                         <h4>Mediclaim</h4>
+//                         <p>Cashless Mediclaim & Medical Assistance</p>
+
+//                     </Col>
+//                     <Col span="6" className="hostel_icon">
+//                         <div className="icon-div">
+//                             <i class="fa fa-cutlery effect-2 hostel-icons"></i>
+//                         </div>
+//                         <h4>Signature Meals</h4>
+//                         <p>Healthy, Nutritious & Hygenic Food</p>
+
+//                     </Col>
+//                     <Col span="6" className="hostel_icon">
+//                         <div className="icon-div">
+//                             <i class="fa fa-video-camera effect-2 hostel-icons"></i>
+//                         </div>
+//                         <h4>24 Hours Security</h4>
+//                         <p>CCTV Surveillance & Round the Clock Security</p>
+
+//                     </Col>
+//                     <Col span="6" className="hostel_icon">
+//                         <div className="icon-div">
+//                             <i class="fa fa-calendar-o effect-2 hostel-icons"></i>
+//                         </div>
+//                         <h4>Events</h4>
+//                         <p>Personality Developement Program</p>
+
+//                     </Col>
+//                 </Row>
+

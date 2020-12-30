@@ -1,0 +1,577 @@
+
+.Curriculum-section{
+    padding-top: 150px;
+}
+
+.Curriculum-heading h1{
+    // text-align: center;
+    // color: #000;
+    // text-transform: none;
+    // font-weight: 400;
+    // text-shadow: 6px 6px 8px rgba(0,0,0,0.2);
+    // line-height: 43px;
+    // font-size: 40px;
+    // font-family: 'Fredoka One', cursive;
+    // padding-top: 30px;
+    font-size: 56px;
+    font-family: source-sans-pro, sans-serif;
+    font-weight: 800;
+    text-transform: capitalize;
+    text-align: center;
+}
+.Curriculum-heading h1::after{
+    content: '';
+    background: linear-gradient(to right,#FF5D88, #00A1E5);
+    display: block;
+    height: 3px;
+    width: 120px;
+    margin: 15px auto 50px;
+  
+  }
+
+.Curriculum-heading p{
+    font-family: source-sans-pro, sans-serif;
+    text-align: center;
+    font-size: 17px;
+    line-height: 28px;
+    color: #8a919c;
+    padding-bottom: 50px;
+}
+.Curriculum-first-col {
+margin-bottom: 100px;
+}
+
+
+.style-part{
+    margin-top: 100px;
+}
+
+  .style-bg{
+    background-image: url(../../../img/curriculum-bg.jpg);
+    position: relative;
+     /* The image used */
+//   background-image: url('../../../img/img-2.jpg');
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+     padding: 30px 0px 0px 30px;
+     text-align: center;
+}
+.style-bg:after {
+    position: absolute;
+    content: " ";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+  .style-bg h1{
+    position:relative;
+    text-align: center;
+    color: #fff;
+    text-transform: none;
+    font-weight: 700;
+    font-size: 40px;
+    font-family: source-sans-pro, sans-serif;
+    z-index:1;
+  }
+  .style-bg h1::after{
+    content: '';
+    background: linear-gradient(to right,#FF5D88, #00A1E5);
+    display: block;
+    height: 3px;
+    width: 120px;
+    margin: 15px auto 50px;
+  position: relative;
+  z-index: 1;
+  }
+  .style-bg p{
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    line-height: 28px;
+    font-size: 17px;
+    font-family: source-sans-pro, sans-serif;
+    position:relative;
+    z-index:1;
+}
+.first-style{
+   padding: 30px 0px 30px 0px;
+    // background-color: whitesmoke;
+}
+.first-style img{
+    position:relative;
+    z-index: 1;
+    color: #fff;
+    width: 60px;
+    height: auto;
+    cursor: pointer;
+}
+.first-style h2{
+    position:relative;
+    text-align: center;
+    color: #fff;
+    text-transform: none;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: source-sans-pro, sans-serif;
+    z-index:1;
+}
+// .image-div1{
+//     padding: 10px 0px 10px 110px;
+// }
+// .image-div2{
+//     padding: 10px 0px 10px 110px;
+// }
+// .image-div3{
+//     padding: 10px 0px 10px 110px;
+// }
+// .image-div4{
+//     padding: 10px 0px 10px 110px;
+// }
+.style-last-prag{
+    padding: 50px 0px 30px 0px;
+}
+
+
+
+
+
+
+
+.subjectbox{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-bottom: 30px;
+    // padding-top: 30px;
+}
+.subjectbox-icon .fa{
+    font-size: 30px;
+    color: #fff;
+}
+.subjectbox .subjectbox-icon{
+    color: #fff;
+    background: #fff;
+    font-size: 27px;
+    line-height: 92px;
+    width: 105px;
+    height: 80px;
+    padding: 0 0 20px 0;
+    margin: 0 auto;
+    position: relative;
+    clip-path: polygon(100% 80%, 50% 100%, 0 80%, 0 0, 50% 20%, 100% 0);
+}
+.subjectbox:hover .subjectbox-icon i{
+    transform: rotateX(360deg);
+    transition: all 0.3s;
+}
+.subjectbox .subjectbox-icon:before{
+    content: "";
+    background: linear-gradient(#f47709, #e00f47);
+    position: absolute;
+    top: 11px;
+    left: 8px;
+    right: 8px;
+    bottom: 8px;
+    clip-path: polygon(100% 80%, 50% 100%, 0 80%, 0 0, 50% 20%, 100% 0);
+    z-index: -1;
+}
+.subjectbox .subject-content{
+    background-color: #fff;
+    padding: 60px 22px 40px;
+    margin: -40px 0 -12px;
+    outline: 2px solid #e00f47;
+    outline-offset:-12px;
+}
+.subjectbox .subject-title{
+    color: #e00f47;
+    font-size: 19px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0 0 5px;
+}
+
+.subjectbox .read-more:hover{
+    letter-spacing: 2px;
+    text-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+}
+.subjectbox.purple .subjectbox-icon:before{ background: linear-gradient(#1F8DCA,#CD21A9); }
+.subjectbox.purple .subject-content{ outline-color: #CD21A9; }
+.subjectbox.purple .subject-title{ color: #CD21A9; }
+.subjectbox.purple .read-more{ background: linear-gradient(to right,#1F8DCA,#CD21A9); }
+.subjectbox.pink .subjectbox-icon:before{ background: linear-gradient(#EF78BC,#DA327F); }
+.subjectbox.pink .subject-content{ outline-color: #DA327F; }
+.subjectbox.pink .subject-title{ color: #DA327F; }
+.subjectbox.pink .read-more{ background: linear-gradient(to right,#EF78BC,#DA327F); }
+.subjectbox.blue .subjectbox-icon:before{ background: linear-gradient(#0E44A6,#22A5C1); }
+.subjectbox.blue .subject-content{ outline-color: #22A5C1; }
+.subjectbox.blue .subject-title{ color: #22A5C1; }
+.subjectbox.blue .read-more{ background: linear-gradient(to right,#0E44A6,#22A5C1); }
+@media only screen and (max-width:990px){
+    .subjectbox{ margin: 0 0 30px; }
+}
+
+// -----sTyle of teaching ---------
+
+
+
+
+
+
+
+
+// @media only screen and (max-width:768px){
+//     .subjectbox .subject-title{
+//         color: #e00f47;
+//         font-size: 14px;
+//         font-weight: 600;
+//         text-transform: uppercase;
+//         margin: 0 0 5px;
+//     }
+// }
+
+
+
+.Curriculum-bg-one{
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    z-index: -1;  
+    // animation: Curriculum-rotate 25s alternate infinite linear;  
+    // animation:Curriculum-rotate 20s infinite;
+}
+
+
+.Curriculum-bg-two{
+    position: absolute;
+    bottom: -50%;
+    right: 5%;
+    z-index: -1;  
+    opacity: 0.3;  
+    // animation:Curriculum-rounded 10s infinite linear;
+}
+
+.Curriculum-bg-three{
+    position: absolute;
+     bottom: -95%;
+     right: 0;
+}
+@keyframes Curriculum-rotate{
+0% {
+    transform: translate(-300px,151px) rotate(0deg);
+}
+
+100% {
+    transform: translate(251px,-200px) rotate(180deg);
+}
+}
+@keyframes Curriculum-rounded{
+    0% {
+        transform: translate(0px,0px) rotate(0deg);
+    }
+    
+    20% {
+        transform: translate(73px,-1px) rotate(36deg);
+    }
+    40% {
+        transform: translate(141px,72px) rotate(72deg);
+    }
+    60% {
+        transform: translate(83px,122px) rotate(108deg);
+    }
+    80% {
+        transform: translate(-40px,72px) rotate(144deg);
+    }
+    100% {
+        transform: translate(0px,0px) rotate(0deg);
+    }
+  }
+
+
+
+
+
+
+
+
+  .style-of-teach-bg{
+      margin-top: 100px;
+    position: relative;
+     /* The image used */
+  background-image: url('../../../img/curriculum-bg.jpg');
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+
+.style-of-teach-bg:after {
+    position: absolute;
+    content: " ";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+// .style-of-teach-bg h1{
+//     color: #fff;
+//     text-align: center !important;
+//     font-family: source-sans-pro, sans-serif;
+//     z-index: 1;
+//     position: relative;
+//     padding-top: 30px;
+// }
+
+// .style-of-teach-bg h1::after{
+//     content: '';
+//     background: linear-gradient(to right,#FF5D88, #00A1E5);
+//     display: block;
+//     height: 3px;
+//     width: 120px;
+//     margin: 15px auto 50px;
+  
+//   }
+
+.style-heading{
+    text-align: center;
+    &::before {
+        padding-top: 100px;
+        content:"style of teaching";
+        font-family: source-sans-pro, sans-serif;
+        color: rgba(220,220,220,0.5);
+        font-size: 120px;
+        //width: 350px;
+        display: block;
+        margin-top: 0px;
+        margin-bottom: 30px;
+        font-weight: 900;
+        letter-spacing: 10px;
+        text-transform: capitalize;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+        }	
+}
+
+
+.style-box{
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.teach-style img{
+    width: 100px;
+    padding-bottom: 20px;
+}
+
+.teach-style{
+    text-align: center;
+    padding: 40px 20px 40px 20px;
+    border-radius: 5px;
+    // background-color: #f3f6ff;
+    // background-color: rgb(75, 73, 167);
+    border-radius: 10px;
+    // box-shadow: 0 1.75rem 3.125rem rgba(0,0,0,0.1);
+
+}
+
+.teach-style img{
+    width: 70px;
+}
+
+.teach-style h5{
+    padding-top: 10px;
+    font-family: source-sans-pro, sans-serif;
+    font-size: 24px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #00A1E5;
+    // color: #fff;
+}
+
+
+
+// BG IMG
+
+.counter-bg7{
+    position: absolute;
+    right: 10%;
+    bottom:10%;
+    z-index: 1;
+  }
+  
+  
+  .counter-bg9{
+    position: absolute;
+    top: 10%;
+    left:10%;
+    z-index: 1;
+    animation: animationFramesTwo 25s infinite linear;
+  }
+  
+@keyframes animationFramesTwo{
+    0% {
+        transform: translate(0px,0px) rotate(0deg) scale(1);
+    }
+    20% {
+        transform: translate(73px,-1px) rotate(36deg) scale(0.9);
+    }
+    40% {
+        transform: translate(141px,72px) rotate(72deg) scale(1);
+    }
+    60% {
+        transform: translate(83px,122px) rotate(108deg) scale(1.2);
+    }
+    80% {
+        transform: translate(-40px,72px) rotate(144deg) scale(1.1);
+    }
+    100% {
+        transform: translate(0px,0px) rotate(0deg) scale(1);
+    }
+    
+}
+
+  .counter-bg10{
+    position: absolute;
+    bottom: 0%;
+    left:20%;
+    z-index: 1;
+    animation: animationFramesOne 25s infinite linear;
+  }
+  
+  @keyframes animationFramesOne {
+    0% {
+        transform: translate(0px,0px) rotate(0deg);
+    }
+    
+    20% {
+        transform: translate(73px,-1px) rotate(36deg);
+    }
+    40% {
+        transform: translate(141px,72px) rotate(72deg);
+    }
+    60% {
+        transform: translate(83px,122px) rotate(108deg);
+    }
+    80% {
+        transform: translate(-40px,72px) rotate(144deg);
+    }
+    100% {
+        transform: translate(0px,0px) rotate(0deg);
+    }
+  }
+
+
+.counter-bg-sun{
+    position: absolute;
+    z-index: 1;
+    top: 10%;
+    left: 20%;
+    animation: run 50s infinite;
+}
+
+
+@keyframes run {
+    0% { left: 0;}
+    50%{ left : 70%;}
+    100%{ left: 0;}
+}
+
+// .counter-bg-bg1{
+//     position: absolute;
+//     z-index: -1;
+//     opacity: 0.3;
+//     top: -40%;
+//     left: 10%;
+//     animation: counter-bg-rounded 15s infinite;
+// }
+
+@keyframes counter-bg-rounded{
+    0% {
+        transform: translate(0px,0px) rotate(0deg);
+    }
+    
+    20% {
+        transform: translate(73px,-1px) rotate(36deg);
+    }
+    40% {
+        transform: translate(141px,72px) rotate(72deg);
+    }
+    60% {
+        transform: translate(83px,122px) rotate(108deg);
+    }
+    80% {
+        transform: translate(-40px,72px) rotate(144deg);
+    }
+    100% {
+        transform: translate(0px,0px) rotate(0deg);
+    }
+}
+
+
+
+
+
+
+// --------Responsive---------
+
+@media only screen and (max-width: 1024px){
+    .style-heading::before{
+        font-size: 80px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .style-heading::before{
+        font-size: 60px;
+    }
+}
+@media only screen and (max-width: 426px){
+    .style-heading::before{
+        font-size: 30px;
+        letter-spacing: 5px;
+    }
+    .style-of-teach-bg{
+        min-height: 1000px;
+    }
+}
+
+
+@media only screen and (max-width: 426px){
+    .style-heading::before{
+        font-size: 25px;
+        letter-spacing: 5px;
+        margin-bottom: -30px;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .style-heading::before{
+        font-size: 20px;
+        letter-spacing: 5px;
+    }
+    .style-of-teach-bg{
+        width: 110vw;
+    }
+}

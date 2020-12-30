@@ -1,0 +1,603 @@
+// .hostel-section h1{
+//   font-size: 56px;
+//   font-family: source-sans-pro, sans-serif;
+//   font-weight: 600;
+//   text-align: left;
+// }
+
+// .hostel-section1{
+//   padding-top: 100px;
+//   text-align: left;
+// justify-content: left;
+// }
+// .Watch-video-btn{
+//   color: #308fff;
+//   background-color:#FFf;
+//   border: none;
+//   width: 180px;
+//   font-family: source-sans-pro, sans-serif;
+//   font-weight: 600;
+//   text-align: left;
+//   border: none;
+// }
+// .watch-video-icon{
+//   display: table-cell;
+//   text-align: center !important;
+//   vertical-align: middle;
+//   font-size: 30px;
+//   line-height: 50px;
+//   padding-top: 24px;
+//   padding-bottom: 24px;
+//   //border: 1px solid #CF0545;
+//   width: 100px;
+//   height: 100px;
+//   color: #CF0545;
+//   background: #ffffff;
+//   border-radius: 50%;
+// }
+// .hostel-section1 h5{
+//   display: flex;
+//   color: red;
+// }
+// .ant-btn > .anticon {
+//   font-size: 45px;
+// }
+// .small-three-img-div h3{
+//   font-size: 18px;
+//   font-family: source-sans-pro, sans-serif;
+//   font-weight: 600;
+//   text-align: left;
+// }
+// .small-three-img-div h4{
+//   font-size: 14px;
+//   font-family: source-sans-pro, sans-serif;
+//   font-weight: 200;
+//   text-align: left;
+//   margin-top: -10px;
+// }
+
+// .hostel-2nd-section{
+//   padding-top: 100px;
+// }
+// .hostel-2nd-section h1::before{
+//   content: '';
+//   background: #308fff;
+//   display: block;
+//   height: 3px;
+//   width: 70px;
+//   margin-bottom: 20px;
+
+// }
+// .hostel-2nd-section h1{
+
+//   font-size: 45px;
+//   font-family: source-sans-pro, sans-serif;
+//   font-weight: 600;
+//   text-align: left;
+// }
+// .hostel-2nd-section p{
+//   font-size:16px;
+//   font-family: source-sans-pro, sans-serif;
+//   font-weight: 200;
+//   text-align: left;
+// }
+
+
+
+//   // .hostel-2nd-section{
+//   //   background: url(../../../img/hostel.jpg) ;
+//   //   background-repeat: no-repeat;
+//   //   background-size: 550px 346px;
+//   //   position: relative;
+//   // }
+//   // .h ostel-2nd-section:after {
+//   //   position: absolute;
+//   //   content: " ";
+//   //   top: 0;
+//   //   left: 0;
+//   //   width: 100%;
+//   //   height: 100%;
+//   //   z-index: 0;
+//   //   background: linear-gradient(to right,red , blue, );
+//   //   opacity: 0.5;
+//   // }
+
+
+
+
+
+
+
+
+
+
+
+
+.hostel-section{   
+  padding-top: 150px;
+    background-color: #ffffff;
+    text-align: center;
+    padding-bottom: 20px;
+    //margin-top: 140px;
+
+    //border-radius: 71% 29% 38% 62% / 75% 44% 56% 25% ;
+  }
+
+//   .hostel-section h1{
+//     padding-top: 30px;
+//   color: #2a2a2a;
+//   text-transform: none;
+//   font-weight: 400;
+//   //text-shadow: 6px 6px 8px rgba(0,0,0,0.2);
+//   line-height: 43px;
+//   text-align: center;
+//   font-size: 36px;
+//   font-family: 'Fredoka One', cursive;
+//   margin-right: 40px;
+// }
+
+.hostel-section h2{
+  padding-top: 30px;
+  font-size: 56px;
+  font-family: source-sans-pro, sans-serif;
+  font-weight: 800;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.hostel-section p{
+  color: #8a919c;
+    font-size: 18px;
+position: relative;
+line-height: 28px;
+text-align: center;
+font-family: source-sans-pro, sans-serif;
+padding-bottom: 30px;
+}
+
+
+
+
+.hostel-section h2::after{
+  content: '';
+  background: linear-gradient(to right,#FF5D88, #00A1E5);
+  display: block;
+  height: 3px;
+  width: 120px;
+  margin: 15px auto 50px;
+
+}
+// .hostel-text p{
+//   font-size: 18px;
+//   font-family: source-sans-pro, sans-serif;
+//   text-align: left;
+// }
+
+
+.hostel-side-card{
+  background-color:white;
+}
+.hostel-side-card h3{
+  color: #2a2a2a;
+  font-family: source-sans-pro, sans-serif;
+  text-align: left;
+  // padding-top: 10px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.hostel-side-card p{
+  text-align: left;
+  color: #8a919c;
+  font-size: 16px;
+position: relative;
+line-height: 28px;
+font-family: source-sans-pro, sans-serif;
+
+  
+}
+
+.hostel-side-card ul li{
+  color: #2a2a2a !important;
+  font-family: source-sans-pro, sans-serif;
+
+}
+
+ul {
+  padding-left: 10px;
+  
+}
+
+.hostel-side-card h3::after{
+  content: '';
+  background: linear-gradient(to right,#FF5D88, #00A1E5);
+  display: block;
+  height: 3px;
+  width: 80px;
+  margin: 15px  0px;
+
+}
+
+.read-more-button {
+  background-color: #fff;
+  border: none;
+  color: DodgerBlue;
+  //padding: 12px 16px;
+ // margin-left: -35px;
+font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 32px;
+  font-family: source-sans-pro, sans-serif;
+}
+.right-icon{
+  padding-left: 10px;
+}
+.small-three-img{
+  height: 130px;
+  width: 155px;
+}
+.bg-img1{
+   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+  background: url(../../../img/hostel.jpg) ;
+  background-repeat: no-repeat;
+  background-size: 600px 410px;
+  position: relative;
+}
+.bg-img1:after {
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+  position: absolute;
+  content: " ";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background: linear-gradient(to right,red , blue, );
+  opacity: 0.4;
+}
+
+.bg2{
+  background: url(../../../img/bg2.png);
+  background-repeat: no-repeat;
+  background-size: 550px 346px;
+  position: relative;
+}
+.bg3{
+  background: url(../../../img/bg3.png);
+  background-repeat: no-repeat;
+  background-size: 550px 346px;
+  position: relative;
+}
+.hostel-2nd-section-image{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  
+}
+
+.hostel-2nd-section-image:after {
+  position: absolute;
+  content: " ";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background: linear-gradient(to right,red , blue, );
+  opacity: 0.5;
+}
+
+
+
+.hostel-facility-part h2{
+  font-size: 42px;
+  font-family: source-sans-pro, sans-serif;
+  font-weight: 600;
+  text-align: left;
+  color: #2a2a2a;
+  padding: 50px 0px 20px 0px;
+}
+// .hostel-facility-part span{
+//   font-size: 42px;
+//   font-family: source-sans-pro, sans-serif;
+//   font-weight: 600;
+//   text-align: left;
+//   color: #CF0545;
+// }
+.hostel-facility-part h2::after{
+content: '';
+background: linear-gradient(to right,red , blue, );
+  
+display: block;
+height: 3px;
+width: 100px;
+margin: 15px  0px;
+
+}
+
+
+.icon-div{
+  padding-left: 75px;
+  padding-bottom: 10px;
+}
+
+
+.hostel-icons{
+  display: table-cell;
+  text-align: center !important;
+  vertical-align: middle;
+  font-size: 50px;
+  line-height: 50px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border: 1px solid #CF0545;
+  width: 100px;
+  height: 100px;
+  color: #CF0545;
+  background: #ffffff;
+  border-radius: 50%;
+}
+
+.hostel_icon h4{
+  padding-top: 10px;
+  font-size: 18px;
+  font-family: source-sans-pro, sans-serif;
+  font-weight: 600;
+  text-align: center;
+  color: #2a2a2a;
+  font-weight: 600;
+}
+.hostel_icon p{
+  font-size: 14px;
+  font-family: source-sans-pro, sans-serif;
+  font-weight: 600;
+  color: #8a919c;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+// /*** FONTS ***/
+// @import url(https://fonts.googleapis.com/css?family=Montserrat:900|Raleway:400,400i,700,700i);
+
+
+
+/*** VARIABLES ***/
+/* Colors */
+$black: #1d1f20;
+$blue: #83e4e2;
+$green: #a2ed56;
+$yellow: #fddc32;
+$white: #fafafa;
+
+
+
+/*** EXTEND ***/
+/* box-shadow */
+%boxshadow {
+  box-shadow: 0.25rem 0.25rem 0.6rem rgba(0,0,0,0.05), 0 0.5rem 1.125rem rgba(75,0,0,0.05);
+}
+
+
+
+
+.list {
+  display: block;
+  margin: 0 auto;
+  max-width: 40rem;
+  // padding: 1rem;
+}
+
+
+ol.gradient-list {
+  counter-reset: gradient-counter;
+  list-style: none;
+  margin: 1.75rem 0;
+  padding-left: 1rem;
+  > li {
+    background: white;
+    font-size: 16px;
+  font-family: source-sans-pro, sans-serif;
+  // text-align: center;
+  color: #2a2a2a;
+    border-radius: 0 0.5rem 0.5rem 0.5rem;
+    @extend %boxshadow;
+    counter-increment: gradient-counter;
+    margin-top: 1rem;
+    min-height: 3rem;
+    padding: 1rem 1rem 1rem 3rem;
+    position: relative;
+    text-align: left;
+  color: #8a919c;
+  font-size: 16px;
+position: relative;
+line-height: 28px;
+font-family: source-sans-pro, sans-serif;
+// padding-bottom: 30px;
+    &::before,
+    &::after {
+      background: linear-gradient(135deg, $blue 0%,$green 100%);
+      border-radius: 1rem 1rem 0 1rem;
+      content: '';
+      height: 3rem;
+      left: -1rem;
+      overflow: hidden;
+      position: absolute;
+      top: -1rem;
+      width: 3rem;
+    }
+    &::before {
+      align-items: flex-end;
+      @extend %boxshadow;
+      content: counter(gradient-counter);
+      color: #2a2a2a;
+      display: flex;
+      font: 900 1.5em/1 'Montserrat';
+      justify-content: flex-end;
+      padding: 0.125em 0.25em;
+      z-index: 1;
+    }
+    @for $i from 1 through 5 {
+      &:nth-child(10n+#{$i}):before {
+        background: linear-gradient(135deg, rgba($green, $i * 0.2) 0%,rgba($yellow, $i * 0.2) 100%);
+      }
+    }
+    @for $i from 6 through 10 {
+      &:nth-child(10n+#{$i}):before {
+        background: linear-gradient(135deg, rgba($green, 1 - (($i - 5) * 0.2)) 0%,rgba($yellow, 1 - (($i - 5) * 0.2)) 100%);
+      }
+    }
+    + li {
+      margin-top: 2rem;
+    }
+  }
+}
+
+
+
+
+.btn{
+  padding-right: 30px;
+  padding-left: 30px;
+  border-radius: 0;
+  color:#2a2a2a;
+  text-transform: uppercase;
+  background: #fff;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.3s ease 0s;
+}
+
+
+
+
+
+
+
+
+
+// ------Icons alignment----------
+
+@media only screen and (max-width: 1024px){
+  .icon-div {
+    padding-left: 54px;
+}
+}
+
+
+@media only screen and (max-width: 987px){
+  .icon-div {
+    padding-left: 111px;
+    padding-bottom: 8px;
+}
+}
+
+
+@media only screen and (max-width: 766px){
+  .icon-div {
+    padding-left: 203px;
+    
+}
+}
+
+
+
+@media only screen and (max-width: 426px){
+  .icon-div {
+    padding-left: 146px;
+    
+}
+}
+
+@media only screen and (max-width: 375px){
+  .icon-div {
+    padding-left: 125px;
+    
+}
+}
+@media only screen and (max-width: 321px){
+  .icon-div {
+    padding-left: 100px;
+    
+}
+}
+
+.blob {
+  position: absolute;
+  top: 100;
+  left: 0;
+  fill: #023F92;
+  width: 40vmax;
+  z-index: -1;
+  opacity: 0.2;
+  animation: move 10s ease-in-out infinite;
+  transform-origin: 40% 40%;
+}
+
+@keyframes move {
+  0%   { transform: scale(1)   translate(10px, -30px); }
+  38%  { transform: scale(0.8, 1) translate(80vw, 30vh) rotate(160deg); }
+  40%  { transform: scale(0.8, 1) translate(80vw, 30vh) rotate(160deg); }
+  78%  { transform: scale(1.3) translate(0vw, 50vh) rotate(-20deg); }
+  80%  { transform: scale(1.3) translate(0vw, 50vh) rotate(-20deg); }
+  100% { transform: scale(1)   translate(10px, -30px); }
+}
+
+
+
+@media only screen and (max-width: 426px){
+  .blob {
+    width: 30vmax;
+    transform-origin: 20% 20%;
+    
+}
+}
+@media only screen and (max-width: 321px){
+  .blob {
+    width: 20vmax;
+    transform-origin: 5% 5%;
+    
+}
+}
+
+
+
+
+@media only screen and (max-width: 426px){
+  .hostel-section h2{
+    font-size: 30px;
+  }
+}
+
+
+@media only screen and (max-width: 768px){
+  .hostel-side-card h3{
+    padding-top: 30px;
+    text-align: center;
+  }
+  .hostel-side-card h3::after{
+    margin: 15px auto 0px;
+  }
+  .hostel-facility-part h2{
+    text-align: center;
+    font-size: 35px;
+  }
+  .hostel-facility-part h2::after{
+    margin: 15px auto 0px;
+    
+    }
+}
+
+@media only screen and (max-width: 426px){
+  .view-more{
+    margin-top: 30px;
+  }
+}
